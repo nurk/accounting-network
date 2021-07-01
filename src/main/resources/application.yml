@@ -9,4 +9,4 @@ spring:
     init:
       platform: H2
   datasource:
-    url: jdbc:h2:./test;INIT=CREATE SCHEMA IF NOT EXISTS TEST\;SET SCHEMA TEST;;DB_CLOSE_ON_EXIT=FALSE
+    url: jdbc:h2:./test;INIT=CREATE SCHEMA IF NOT EXISTS TEST\;SET SCHEMA TEST;DB_CLOSE_ON_EXIT=FALSE
